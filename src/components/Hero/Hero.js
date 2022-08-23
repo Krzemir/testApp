@@ -1,8 +1,10 @@
+import styles from './Hero.module.scss';
+
 const Hero = () => {
     return (
-        <div>
-              <h1>My first app</h1>
-              <p>To do list</p>
+        <div className={styles.hero}>
+              <h1 className={styles.title}>My first app</h1>
+              <p className={styles.subtitle}>To do list</p>
         </div>
       );
 }
